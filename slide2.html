@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<title>slideshow</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="f_styles.css">
+
+<body>
+
+
+
+<div class="content">
+  <img class="Slides" src="images/bs.jpg" style="width:100%">
+  <img class="Slides" src="images/bh.jpg" style="width:100%">
+  <img class="Slides" src="images/bm.png" style="width:100%">
+  <img class="Slides" src="images/bs.jpg" style="width:100%">
+  
+
+  <button class="prev" onclick="plus(-1)">&#10094;</button>
+  <button class="next" onclick="plus(1)">&#10095;</button>
+</div>
+
+<script>
+var Index = 1;
+show(Index);
+
+function plus(n) {
+  show(Index += n);
+}
+
+function show(n) {
+  var i;
+  var x = document.getElementsByClassName("Slides");
+  if (n > x.length) {Index = 1}
+  if (n < 1) {Index = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[Index-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>
