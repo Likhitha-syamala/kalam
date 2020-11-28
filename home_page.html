@@ -1,0 +1,914 @@
+<html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>PERFECT SPACES</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+         
+         <style>
+
+           
+           .fa {
+          
+  padding: 5px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+  
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+        }   
+             .hero_text{
+                   font-weight: inherit;
+                   font-size: 70px;
+                   font-family: 'Courier New', Courier, monospace;
+                   font-style: italic;
+                   color: black;
+                   margin-top: -350px;
+                   margin-left: 30%;
+          
+             }
+             /*------------------------------HEADER------------------------------*/
+             .header{
+                 text-align: center;
+                 padding: 07px;
+                  font-size:20px;
+                  font-style:italic;
+                  margin-top: -120px;
+                
+             }
+             /*----------------------------HEADER--------------------------------*/
+             /*----------------------------FOOTER--------------------------------*/
+.footer{
+  padding:10px;
+  width:100%;
+  height: auto;
+  text-align: center;
+  margin-left:-300px;
+}
+.fa{
+  padiing:20px;
+  font-size:30px;
+  width:40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa-facebook{
+  background:#3b5998;
+  color:white;
+}
+.fa.twitter{
+  background:#55acee;
+  color:white;
+}
+.fa-instagram{
+  background:#125688;
+  color:white;
+}            
+.fa-linkedin{
+  background:#ee7bb5;
+  color:white;
+}
+.fa-youtube{
+  background:#bb0000;
+  color:white;
+}
+/*-----------------------------------------FOOTER--------------------------------*/
+             /*----------------------------ANCHOR--------------------------------*/
+             a{
+                   margin: 15px;
+                
+                   text-decoration: none;
+                   color:black;
+             }
+             a:hover{
+              
+               color:rgb(255, 123, 0) ;
+             }
+             /*----------------------------ANCHOR--------------------------------*/
+             
+             .logo{
+                   align-items: center;
+                   margin-left: 450px;
+                   margin-top:-95px;
+            }
+             .content1{
+             
+                  position: absolute;
+                  left: 140px;
+                  width: 500px;
+                  height: 10px;
+                  border: 3px;
+
+             }
+             .content2{
+            
+              position: absolute;
+  left: 750px;
+  width: 500px;
+  height: 10px;
+  border: 3px ;             }
+   
+        .welcome{
+                  color: gray;
+                  text-align: center;
+                  font-family:  Gotham, Arial !important;
+        }
+        
+    /*--------------------------------------------------------------------------------------------------------------------------*/         
+body {
+  font-family:"Times New Roman", Times, serif;
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,.next {
+
+  cursor: pointer;
+  position: absolute;
+  top: 100%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color:black;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  top:60%;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.image1{  
+ margin-left: -650px;
+ position: relative;
+ width: 70%;
+ 
+}
+.image1 img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.image1 .btn {
+  opacity:0.7;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  color:black;
+  font-size: 25px;
+  padding: 1px 2px;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.image1 .btn:hover {
+  opacity: 1;
+  
+  
+}
+
+.image2{
+margin-left: -250px;
+margin-top:-475px ;
+position: relative;
+  width: 70%;
+}
+.image2 img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.image2 .btn {
+  opacity: 0.7;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:  rgb(255, 255, 255);
+  color:black;
+  font-size: 25px;
+  padding: 1px 2px;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.image2 .btn:hover {
+  opacity: 1;
+}
+.image3{
+margin-left:150px ;
+margin-top: -475px;
+position: relative;
+  width: 70%;
+  
+  }
+  .image3 img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.image3 .btn {
+  opacity: 0.7;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  color:black;
+  font-size:25px;
+  padding: 1px 2px;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.image3 .btn:hover {
+  opacity: 1
+  ;
+}
+ .image4{
+   margin-left:-650px ;
+   margin-top:20px ;
+   position: relative;
+  width: 70%;
+
+ }
+ .image4 img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+ .image4 .btn {
+   opacity: 0.7;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:  rgb(255, 255, 255);
+  color:black;
+  font-size: 25px;
+  padding: 1px 2px;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.image4 .btn:hover {
+  opacity: 1;
+}
+.image5{
+  margin-left: -250px;
+  margin-top: -495px;
+  position: relative;
+  width: 70%;
+}
+.image5 img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.image5 .btn {
+  opacity: 0.7;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  color:black;
+  font-size: 25px;
+  padding: 1px 2px;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.image5 .btn:hover {
+  opacity: 1;
+} 
+.image6{
+  margin-left:150px;
+  margin-top:-490px ;
+  position: relative;
+  width: 70%;
+}
+.image6 img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.image6 .btn {
+  opacity: 0.7;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:  rgb(255, 255, 255);
+  color: black;
+  font-size: 25px;
+  padding: 1px 2px;
+  border: none;
+  cursor: pointer;
+}
+
+.image6 .btn:hover {
+  opacity: 1;
+}
+.image7{
+  margin-left:-650px ;
+   margin-top:20px ;
+   position: relative;
+  width: 70%;
+ }
+ .image7 img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+ .image7 .btn {
+   opacity: 0.7;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:  rgb(255, 255, 255);
+  color:black;
+  font-size: 25px;
+  padding: 1px 2px;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.image7 .btn:hover {
+  opacity: 1;
+}
+.image8{
+  margin-left: -250px;
+  margin-top: -495px;
+  position: relative;
+  width: 70%;
+}
+.image8 img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.image8 .btn {
+  opacity: 0.7;
+  position: absolute;
+  top: 90%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  color:black;
+  font-size: 25px;
+  padding: 1px 2px;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.image8 .btn:hover {
+  opacity: 1;
+} 
+.image9{
+  margin-left:150px;
+  margin-top:-475px ;
+  position: relative;
+  width: 70%;
+}
+.image9 img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.image9 .btn {
+  opacity: 0.7;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:  rgb(255, 255, 255);
+  color: black;
+  font-size: 25px;
+  padding: 1px 2px;
+  border: none;
+  cursor: pointer;
+}
+
+.image9 .btn:hover {
+  opacity: 1;
+}
+   
+* {box-sizing: border-box}
+body1 {font-family: Verdana, sans-serif; margin:0}
+
+/* Slideshow container */
+.slideshow-container1 {
+  position: relative;
+  background: #f1f1f1f1;
+  margin-left:-630px ;
+}
+
+/* Slides */
+.mySlides1 {
+  display: none;
+  padding: 80px;
+  text-align: center;
+  
+}
+
+/* Next & previous buttons */
+.before, .after {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  
+}
+
+/* Position the "next button" to the right */
+.after {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.before:hover, .after:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+    margin-left:-630px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}  
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+         </style>
+
+
+         <body>
+          
+
+
+          <div class="social-media">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-google"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+          <a href="#" class="fa fa-youtube"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-pinterest"></a>
+          </div>
+        
+           <br>
+          <div class="logo">   <br>
+            <img src="logo.jpg" alt="perfect-spaces-logo" width="450" height="400">
+        </div>
+         
+      
+         <div class="header">
+           <a href="home.html"  ><b>HOME</b> </a>
+           <a href="about.html"><b>ABOUT US</b></a>
+           <a href="materials.html" ><b>MATERIALS</b></a>
+           <a href="furniture.html"><b>FURNITURE</b></a>
+           <a href="contact.html"><b>CONTACT US</b></a>
+          
+        </div>
+        <br><br>
+        <div class="container">
+            <div class="mySlides">
+              <div class="numbertext">1 / 6</div>
+              <img src="img1.jpg" style="width:100%"><br>
+            </div>
+          
+            <div class="mySlides">
+              <div class="numbertext">2 / 6</div>
+              <img src="img2.png" style="width:100%"><br>
+            </div>
+          
+            <div class="mySlides">
+              <div class="numbertext">3 / 6</div>
+              <img src="img3.jpg" style="width:100%"><br>
+            </div>
+              
+            <div class="mySlides">
+              <div class="numbertext">4 / 6</div>
+              <img src="img4.png" style="width:100%"><br>
+            </div>
+          
+            <div class="mySlides">
+              <div class="numbertext">5 / 6</div>
+              <img src="img5.jpg" style="width:100%"><br>
+            </div>
+              
+            <div class="mySlides">
+              <div class="numbertext">6 / 6</div>
+              <img src="img6.jpg" style="width:100%"><br>
+            </div>
+              
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+          
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+          
+            <div class="row">
+              <div class="column">
+                <img class="demo cursor" src="img1.jpg" style="width:100%" onclick="currentSlide(1)" alt="INTERIOR DESIGNS">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="img2.png" style="width:100%" onclick="currentSlide(2)" alt="INTERIOR DESIGNS">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="img3.jpg" style="width:100%" onclick="currentSlide(3)" alt="INTERIOR DESIGNS">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="img4.png" style="width:100%" onclick="currentSlide(4)" alt="INTERIOR DESIGNS">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="img5.jpg" style="width:100%" onclick="currentSlide(5)" alt="INTERIOR DESIGNS">
+              </div>    
+              <div class="column">
+                <img class="demo cursor" src="img6.jpg" style="width:100%" onclick="currentSlide(6)" alt="INTERIOR DESIGNS">
+              </div>
+            </div>
+          </div>
+          
+          <script>
+          var slideIndex = 1;
+          showSlides(slideIndex);
+          
+          function plusSlides(n) {
+            showSlides(slideIndex += n);
+          }
+          
+          function currentSlide(n) {
+            showSlides(slideIndex = n);
+          }
+          
+          function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+            captionText.innerHTML = dots[slideIndex-1].alt;
+          }
+          </script><br><br><br>
+
+          
+        
+          <div class="welcome"><h2><I>WELCOME TO PERFECT SPACES INTERIOR DESIGNS</I></h2> </div><br><br><br> 
+          <div class="text-content txt-col-1">
+
+            <div class="content1">
+            <h2 style="color:black;">Interior Design services</h2>
+            <h3 style="color: gray;"><span style="font-size:20px;">Bespoke designs and project management to make your property a home. </span></h3>
+           <p style="font-size:17px;">Our Interior Designers have worked on some of the most prestigious properties in the world and deliver a unique service to our clients which encompasses a full managed service.
+              Our Interior Design team primarily work on post sale properties across new builds, townhouses, country estates and holiday homes. 
+              The Fine & Country designers bring a diverse range of skills across design and project management, enabling them to manage large scale renovation projects, inclusive of interior architecture.
+
+            We offer a bespoke, luxury service, where our designers bring their wealth of expertise to tailor the design to your specific style,
+             needs and character to truly turn your property into a home. Their goal is to offer you a fully managed service where required, 
+             involving you as and when necessary in the design decisions to ensure your comfort throughout the process.</p>
+            </div>          
+            <div class="content2">
+              <div class="text-content txt-col-1">
+                <h2 style="color:black;">Staging and styling services</h2>
+                <h3 style="color: gray;"><span style="font-size:20px;">Tailored solutions to maximise the value of your home on the market.</span></h3>
+                <p style="font-size:17px">Our network of Staging & Styling partners provide expert and professional advice, tailored to the needs of the local market, the target demographic and the individual home owner. 
+                  This showcases a property at its best to minimise sales time and achieve a property’s true value in the market. Our experts have extensive experience from furnishing show homes to staging country estates - each approached with the view of maximising enquiries and ultimately the value of a property in the market.
+
+                  Our experts do this by providing tailored packages that combine aesthetic fixes, furniture and accessories to maximise the use of space, lighting and a property’s unique characteristics.
+                   We only work with partners who use real size furniture to accurately represent a property, ensuring your investment achieves a return by maximising the sales value beyond the pure generation of enquiries.</p>
+                </div>
+                <br><br><br>
+          
+                 <h2 style="margin-left: -630px; color: grey;">HERE ARE SOME OF OUR STYLES !</h2>
+                 
+                 <br><br>
+                 <div class="image1">
+                  <button class="btn">  LIVING ROOM DESIGNS </button>
+
+                   <a href="furniture.html"><img src="living.jpg" alt="living"></a>
+                 </div>
+            
+               
+
+                  <div class="image2">
+                    <button class="btn">FURNITURE DESIGNS</button>
+                    <a href="furniture.html"><img src="furniture.jpg" alt="furniture"></a>
+                    
+                   </div>
+
+
+                   <div class="image3">
+                    <button class="btn">INTERIOR DESIGNS</button>
+                    <a href="furniture.html"><img src="interior.jpg" alt="interior" ></a>
+                  </div><br>
+
+                    <div class="image4">
+                      <button class="btn">BATHROOM DESIGNS</button>
+                      <a href="materials.html"><img src="bathroom.jpg" alt="bathroom"></a>
+                    </div><br>
+
+
+                    <div class="image5">
+                      <button class="btn">OUTDOOR DESIGNS</button>
+                      <a href="materials.html"><img src="outdoor.jpg" alt="outdoor"></a>
+                    </div><br>
+
+
+                    <div class="image6">
+                      <button class="btn">LIGHTING DESIGNS</button>
+                     <a href="furniture.html"><img src="lighting.jpg" alt="lighting"></a>
+                    </div><br>
+           
+                    <div class="image7">
+                      <BUTTon class="btn">FABRIC DESIGNS</BUTTon>
+                      <a href="materials.html"><img src="fabric.jpg" alt="fabric"></a>
+                    </div><br>
+                    <div class="image8">
+                      <button class="btn">WALLCOVERING DESIGNS</button>
+                      <a href="materials.html"><img src="wallcoverings.jpg" alt="wallcoverings"></a>
+                    </div>
+                    <div class="image9">
+                      <button class="btn">PLANTS DESIGNS</button>
+
+                      <a href="materials.html"><img src="plants.jpg" alt="plants"></a>
+                    </div>
+                    <br><br><br><br><br><br>
+                    <P style="margin-left: -620px; color:rgb(105, 102, 102); font-size: 25px;">DON'T JUST TAKE OUR WORD FOR IT... <br><br>
+                      Check out reviews from past customers about their experience with PERFECT SPACES</P><br><br><br>
+
+                    <div class="slideshow-container1">
+
+                      <div class="mySlides1">
+                        <q>GREAT FIRST EXPERIENCE!
+                          I will admit, I have yet to purchase my items but will be doing so in the next couple days. This service was amazing! 
+                          My designer was so sweet, so responsive and reactive to my ideas (I had a lot, lol) and was so determined to help me find the perfect look for my space.
+                           I never could have done this alone because interior design is really not my thRead more about I will admit, I have yet to purchaseing,
+                           and can’t believe I got such amazing support at such an affordable price. Would use again and recommend to anyone! </q>
+                        <p class="author">- PRANATHI</p>
+                      </div>
+                      
+                      <div class="mySlides1">
+                        <q>SO MUCH FUN!
+                          I loved the whole process. I don’t know why I waited so long to try PERFECT SPACES.
+                           I started with a mini zoom call and met Jade. She helped me with an entry way design.
+                            Then I signed up to the full package to do my living room.
+                           It was fun coordinating with Jade. She made the process easy and not stressful.</q>
+                        <p class="author">- LIKHITHA</p>
+                      </div>
+                      
+                      <div class="mySlides1">
+                        <q>VERY IMPRESSED!
+                         Very impressed with my living room!I was hesitant to try an online interior
+                           design service but I could not be more pleased! My designer was very responsive and really captured my design aesthetic. 
+                          I have gotten so many compliments on my living room. Ordering through the PERFECT SPACES website was very easy and seamless.</q>
+                        <p class="author">- SYAMALA</p>
+                      </div>
+                      
+                      <a class="before" onclick="plusSlides1(-1)">❮</a>
+                      <a class="after" onclick="plusSlides1(1)">❯</a>
+                      
+                      </div>
+                      
+                      <div class="dot-container">
+                        <span class="dot" onclick="currentSlide1(1)"></span> 
+                        <span class="dot" onclick="currentSlide1(2)"></span> 
+                        <span class="dot" onclick="currentSlide1(3)"></span> 
+                      </div>
+                      
+                      <script>
+                      var slideIndex1 = 1;
+                      showSlides1(slideIndex1);
+                      
+                      function plusSlides1(n) {
+                        showSlides1(slideIndex1 += n);
+                      }
+                      
+                      function currentSlide1(n) {
+                        showSlides1(slideIndex1 = n);
+                      }
+                      
+                      function showSlides1(n) {
+                        var i;
+                        var slides = document.getElementsByClassName("mySlides1");
+                        var dots = document.getElementsByClassName("dot");
+                        if (n > slides.length) {slideIndex1 = 1}    
+                        if (n < 1) {slideIndex1 = slides.length}
+                        for (i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";  
+                        }
+                        for (i = 0; i < dots.length; i++) {
+                            dots[i].className = dots[i].className.replace(" active", "");
+                        }
+                        slides[slideIndex1-1].style.display = "block";  
+                        dots[slideIndex1-1].className += " active";
+                      }
+                      </script>
+                      
+                    
+                <br><br><br><br><br>
+                
+                    <div class="footer">
+                      <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+                      <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+                      <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+                      <a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
+                      <a href="https://www.youtube.com"><i class="fa fa-youtube"></i></a>
+                    </div>
+                  
+                  
+                 
+                   </div>
+                </section> 
+                 
+                
+          <br><br><br>
+        
+        </body>
+    </html>
