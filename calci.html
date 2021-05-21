@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css.css">
+    <style>
+    
+    </style>
+    <script src="cjs.js"> </script>
+</head>
+<body>
+   <div class="row  p-3">
+       <div id="text" class="col-9 ">0</div>
+       <button id="C" onclick="clr()" class="col-2 ">C</button>
+
+       <button id="1" onclick="dis(1)" class="col-3 ">1</button>
+       <button id="2" onclick="dis(2)" class="col-3 ">2</button>
+       <button id="3" onclick="dis(3)" class="col-3 ">3</button>
+       <button id="op" onclick="dis('+')" class="col-2 ">+</button>
+
+       <button id="4" onclick="dis(4)" class="col-3 ">4</button>
+       <button id="5" onclick="dis(5)" class="col-3 ">5</button>
+       <button id="6" onclick="dis(6)" class="col-3 ">6</button>
+       <button id="op" onclick="dis('-')" class="col-2 ">-</button>
+       
+       <button id="7" onclick="dis(7)" class="col-3 ">7</button>
+       <button id="8" onclick="dis(8)" class="col-3 ">8</button>
+       <button id="9" onclick="dis(9)" class="col-3 ">9</button>
+       <button id="op" onclick="dis('/')" class="col-2 ">/</button>
+       <button id="." onclick="dis('.')" class="col-3 ">.</button>
+       
+       <button id="0" onclick="dis(0)" class="col-3 ">0</button>
+
+       <button id="equal" onclick="eval()"  class="col-3">=</button>
+       <button id="op" onclick="dis('*')" class="col-2 ">*</button>
+
+
+   </div> 
+</body>
+</html>
