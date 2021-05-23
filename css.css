@@ -16,6 +16,7 @@
 #text{
     text-align: end;
     background-color: #81c784;
+    padding-top: 10px;
 }
 .col-2,.col-3{
     background-color: black;
